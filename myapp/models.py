@@ -10,6 +10,7 @@ class User(models.Model):
       date_of_birth = models.DateField()
 
 
+
 def __str__(self):
     return self.name
 
