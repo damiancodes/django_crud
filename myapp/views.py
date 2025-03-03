@@ -17,3 +17,7 @@ def add_user(request):
         return redirect('/')
     mydict['form' ] = form
     return render(request,'add.html',context={'form':form})
+
+
+
+
